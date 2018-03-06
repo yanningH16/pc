@@ -1,6 +1,7 @@
 <template>
   <div class="wrap">
-    第一个页面 月落乌啼霜满天
+    第一个页面
+    <h2 style="color:red">月落乌啼霜满天</h2>
   </div>
 </template>
 <script type="text/ecmascript-6">
