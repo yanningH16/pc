@@ -1,5 +1,5 @@
 const Money = () =>
-  import(/* webpackChunkName: 'account' */ '@/components/money/money')
+  import(/* webpackChunkName: 'money' */ '@/components/money/money')
 const money = [
   {
     path: 'money/money',

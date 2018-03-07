@@ -1,5 +1,5 @@
 const Other = () =>
-  import(/* webpackChunkName: 'account' */ '@/components/other/other')
+  import(/* webpackChunkName: 'other' */ '@/components/other/other')
 const other = [
   {
     path: 'other/other',

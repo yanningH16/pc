@@ -1,5 +1,5 @@
 const Order = () =>
-  import(/* webpackChunkName: 'account' */ '@/components/order/order')
+  import(/* webpackChunkName: 'order' */ '@/components/order/order')
 const order = [
   {
     path: 'order/order',

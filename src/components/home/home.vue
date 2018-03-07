@@ -13,7 +13,7 @@
 </template>
 <script type="text/ecmascript-6">
 import NavBar from './navbar'
-import UserTitle from './title'
+import UserTitle from './tit'
 export default {
   name: 'home',
   components: {

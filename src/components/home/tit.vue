@@ -5,7 +5,7 @@
 </template>
 <script type="text/ecmascript-6">
 export default {
-  name: 'title',
+  name: 'tit',
   data () {
     return {
     }
