@@ -1,6 +1,6 @@
 <template>
   <div class="wrap">
-    第三个页面 姑苏城外寒山寺
+    三个页面 姑苏城外寒山寺
     <div style="width:500px; height:500px" ref='echartGet'></div>
   </div>
 </template>
