@@ -1,2 +1,0 @@
-webpackJsonp([1],{"3ytd":function(t,e,n){"use strict";Object.defineProperty(e,"__esModule",{value:!0});var a={render:function(){var t=this.$createElement;return(this._self._c||t)("div",{staticClass:"wrap"},[this._v("\n  第二个页面 江枫渔火对愁眠\n")])},staticRenderFns:[]};var r=n("VU/8")({name:"account",data:function(){return{}}},a,!1,function(t){n("Sf9j")},"data-v-fe3d7364",null);e.default=r.exports},Sf9j:function(t,e){}});
-//# sourceMappingURL=1.5d1b89e72b2ab55bd481.js.map

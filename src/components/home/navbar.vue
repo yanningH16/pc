@@ -1,7 +1,7 @@
 <template>
   <div class="menu">
     <div class="router">
-      <div v-for="(item,index) in navArr" :key="index">
+      <div v-for="(item,index) in navArr" :class="{'active': isActive==index}" :key="index" @click="clickTab(index)">
         <router-link :to="{name:item.router}">
           <p :class="item.icon" class="nav">
             {{item.header}}
@@ -16,6 +16,7 @@ export default {
   name: 'navBar',
   data () {
     return {
+      isActive: 0,
       navArr: [
         {
           icon: 'el-icon-success',
@@ -39,8 +40,12 @@ export default {
         }
       ]
     }
+  },
+  methods: {
+    clickTab (index) {
+      this.isActive = index
+    }
   }
-
 }
 </script>
 <style lang="stylus" rel="stylesheet/stylus" scoped>
@@ -53,4 +58,7 @@ export default {
     .nav
       margin-top 30px
       color red
+    .active
+      p
+        color white
 </style>

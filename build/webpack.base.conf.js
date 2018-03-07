@@ -95,7 +95,8 @@ module.exports = {
     child_process: "empty"
   },
   externals: {
-    echarts: "echarts",
+    'vue':'Vue',
+    "echarts": "echarts",
     "element-ui": "ELEMENT"
   }
 };

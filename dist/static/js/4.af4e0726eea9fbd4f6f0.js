@@ -1,2 +1,0 @@
-webpackJsonp([4],{"AJ/K":function(e,t,n){"use strict";Object.defineProperty(t,"__esModule",{value:!0});var r={render:function(){var e=this.$createElement;return(this._self._c||e)("div",{staticClass:"wrap"},[this._v("\n  第四个页面 夜半钟声到客船\n")])},staticRenderFns:[]};var a=n("VU/8")({name:"other",data:function(){return{}}},r,!1,function(e){n("KuLK")},"data-v-80c5728e",null);t.default=a.exports},KuLK:function(e,t){}});
-//# sourceMappingURL=4.af4e0726eea9fbd4f6f0.js.map
